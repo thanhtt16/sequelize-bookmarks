@@ -3,14 +3,14 @@
 	<div class='col-sm-6 col-sm-offset-3'>
 		<h1>List of Books</h1>	
 
-		<ul>
+		<!-- <ul>
 			<li v-for='book in books'>
 				<h3>{{book.title}}</h3>
 				<p>by {{book.author_id | authorIdToName authors}}</p>
 
 				<p>{{book.description}}</p>
 			</li>
-		</ul>
+		</ul> -->
 	</div>
 
 	<pre>{{books | json}}</pre>

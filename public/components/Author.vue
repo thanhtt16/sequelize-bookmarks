@@ -1,5 +1,7 @@
 <template>
-	<a v-link="{ path: '/authors' }" class='btn btn-default pull-left'>< Back</a>
+<div>
+
+	<a v-link="{ path: '/authors' }" class='btn btn-default pull-left'>Back</a>
 
 	<div class='col-sm-6 col-sm-offset-3'>
 		<h1>{{author.name}}</h1>
@@ -8,12 +10,14 @@
 
 		<h2 v-if='author.Books'>Books ({{author.Books.length}})</h2>
 		<ul>
-			<li v-for='book in author.Books'>
+			<li v-for="book in author.Books">
 				<h3>{{book.title}}</h3>
 				<i>{{book.isbn}}</i>
 			</li>
 		</ul>		
 	</div>
+</div>
+	
 </template>
 
 <script>

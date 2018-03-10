@@ -1,4 +1,3 @@
-
 <template>
 	<div class='jumbotron'>
 		<h1>Sequelize bookmarks</h1>

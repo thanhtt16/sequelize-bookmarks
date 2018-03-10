@@ -1,9 +1,12 @@
 <template>
-	<a v-link="{ path: '/books' }" class='btn btn-default pull-left'>< Back</a>
+<div>
+<a v-link="{ path: '/books' }" class='btn btn-default pull-left'>Back</a>
 
 	<div class='col-sm-6 col-sm-offset-3'>
 		<h1>{{book.title}}</h1>	
 	</div>
+</div>
+	
 </template>
 
 <script>
